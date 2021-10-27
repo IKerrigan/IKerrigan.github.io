@@ -1,0 +1,259 @@
+.year, .description, .image2, .text6, .section3, .section1 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.free-place, .complex, .language-name {
+  display: flex;
+  justify-content: center;
+}
+
+.footer, .course, .header-meaning {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.text2, .text1 {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Gill Sans, sans-serif;
+}
+
+.language-name, .text7, .text4 {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.space-button, .button {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.footer, .section7, .section4, .header {
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.free-place, .description {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.header {
+  height: 300px;
+}
+
+.button {
+  background-color: #020202;
+  border: none;
+  font-size: 20px;
+  margin: 20px 6px;
+  padding: 8px 20px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button5 {
+  background-color: #2d2d2d;
+  width: 490px;
+}
+
+.section1 {
+  width: 600px;
+  height: 58px;
+}
+
+.section2 {
+  padding-left: 182px;
+  margin-top: -55px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.section3 {
+  margin-top: -90px;
+}
+
+.image {
+  width: 512px;
+  height: 210px;
+}
+
+.text1 {
+  color: #2d2d2d;
+}
+
+.text2 {
+  color: #5196eb;
+}
+
+.text3 {
+  font-size: 19px;
+  color: #2d2d2d;
+  font-family: Gill Sans, sans-serif;
+}
+
+.section4 {
+  height: 600px;
+  background-color: #eef4fa;
+  margin-top: 30px;
+}
+
+.text4 {
+  color: #2d2d2d;
+  font-family: Gill Sans, sans-serif;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.text5 {
+  color: #f29b4e;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: Gill Sans, sans-serif;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.text6 {
+  color: #2d2d2d;
+  font-size: 22px;
+  font-family: Gill Sans, sans-serif;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 90%;
+}
+
+.section5 {
+  margin-left: 494px;
+  margin-top: -180px;
+}
+
+.section6 {
+  margin-left: 494px;
+  margin-top: -170px;
+}
+
+.image2 {
+  width: 450px;
+  height: 350px;
+  padding-top: 30px;
+}
+
+.image3 {
+  display: inline-block;
+  margin: 0px 6px;
+  padding: 0px 20px;
+  width: 120px;
+  height: 40px;
+}
+
+.section7 {
+  height: 600px;
+  background-color: #292929;
+  margin-top: 25px;
+}
+
+.text7 {
+  color: #faf8f8;
+  font-family: Gill Sans, sans-serif;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.course {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 60px;
+}
+
+.course-info {
+  width: 350px;
+  height: 350px;
+  background-color: #212121;
+  border-radius: 20px 20px 0px 0px;
+  border: 2px solid #333333;
+}
+
+.language-image {
+  width: 90px;
+  height: 80px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.language-name {
+  color: #faf8f8;
+  font-family: Gill Sans, sans-serif;
+  margin-block-end: 0;
+}
+
+.complex {
+  color: #f29b4e;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Gill Sans, sans-serif;
+  margin-block-start: 0;
+}
+
+.description {
+  color: #faf8f8;
+  font-size: 19px;
+  font-family: Gill Sans, sans-serif;
+  margin-left: 55px;
+}
+
+.free-place {
+  color: #457abb;
+  font-size: 19px;
+  font-family: Gill Sans, sans-serif;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.space-button {
+  background-color: #292929;
+  font-size: 15px;
+  border-radius: 0px 0px 20px 20px;
+  width: 353px;
+  height: 50px;
+  margin-top: 33px;
+  margin-left: 0px;
+  border: 2px solid #333333;
+}
+
+.footer {
+  margin-top: 20px;
+}
+
+.year {
+  width: 900px;
+  height: 40px;
+  background-color: black;
+  flex-direction: row;
+}
+
+.footer-text {
+  margin-left: 10px;
+  margin-top: 10px;
+  color: #faf8f8;
+  font-size: 19px;
+}
+
+.footer-text1 {
+  margin-left: 100px;
+}
+
+.footer-image {
+  width: 40px;
+  height: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */

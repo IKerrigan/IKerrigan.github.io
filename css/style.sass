@@ -1,0 +1,250 @@
+$font-stack: Gill Sans, sans-serif
+
+$text-block: #2d2d2d
+
+$border: 2px solid rgb(51, 51,51)
+
+%block-type1
+    display: flex
+    justify-content: flex-start
+
+%block-type2
+    display: flex
+    justify-content: center
+
+%block-type3
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+
+%adv-block
+    font-size: 25px
+    font-weight: bold
+    font-family: $font-stack
+
+%header-text
+    font-size: 20px
+    font-weight: bold
+    text-transform: uppercase
+
+%button-style 
+    color: white
+    text-align: center
+    text-decoration: none
+    font-weight: bold
+    cursor: pointer
+
+%block-indent
+    margin-left: 35px
+    margin-right: 35px
+
+%margin-block
+    margin-block-start: 0
+    margin-block-end: 0
+
+.header
+    @extend %block-indent
+    height: 300px
+
+.header-meaning 
+    @extend %block-type3
+
+.button 
+    background-color: #020202
+    border: none
+    @extend %button-style 
+    font-size: 20px
+    margin: 20px 6px
+    padding: 8px 20px
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+
+.button5 
+    background-color: $text-block
+    width: 490px
+
+.section1 
+    @extend %block-type1
+    width: 600px
+    height: 58px
+
+
+.section2
+    padding-left: 182px
+    margin-top: -55px
+    display: flex
+    justify-content: flex-end
+
+.section3 
+    @extend %block-type1
+    margin-top: -90px
+
+.image 
+    width: 512px
+    height: 210px
+
+.text1 
+    @extend %adv-block
+    color: $text-block
+ 
+.text2
+    @extend %adv-block
+    color: rgb(81,150,235)
+
+.text3
+    font-size: 19px
+    color: $text-block
+    font-family: $font-stack
+
+.section4 
+    height: 600px
+    background-color: rgb(238, 244, 250)
+    @extend %block-indent
+    margin-top: 30px
+
+.text4
+    color: $text-block
+    @extend %header-text
+    font-family: $font-stack
+    padding-top: 15px
+    text-align: center
+
+.text5 
+    color: rgb(242, 155, 78)
+    font-size: 30px
+    font-weight: bold
+    text-transform: uppercase
+    font-family: $font-stack
+    text-align: center
+    margin-top: -10px
+
+.text6 
+    color: $text-block
+    font-size: 22px
+    font-family: $font-stack
+    text-align: center
+    margin-left: 50px
+    margin-right: 50px
+    @extend %block-type1
+    width: 90%
+
+.section5 
+    margin-left: 494px
+    margin-top: -180px
+
+.section6
+    margin-left: 494px
+    margin-top: -170px
+
+.image2 
+    @extend %block-type1
+    width: 450px
+    height: 350px
+    padding-top: 30px
+
+.image3
+    display: inline-block
+    margin: 0px 6px
+    padding: 0px 20px
+    width: 120px
+    height: 40px
+
+.section7 
+    height: 600px
+    background-color: rgb(41, 41, 41)
+    @extend %block-indent
+    margin-top: 25px
+
+.text7 
+    color: rgb(250, 248, 248)
+    @extend %header-text
+    font-family: $font-stack
+    padding-top: 15px
+    text-align: center
+
+.course 
+    @extend %block-type3
+    margin-left: 30px
+    margin-right: 30px
+    margin-top: 60px
+
+.course-info 
+    width: 350px
+    height: 350px
+    background-color: rgb(33, 33, 33)
+    border-radius: 20px 20px 0px 0px
+    border: $border
+
+.language-image 
+    width: 90px
+    height: 80px
+    display: block
+    margin: 0 auto
+    margin-top: 15px
+
+.language-name 
+    @extend %block-type2
+    color: rgb(250, 248, 248)
+    @extend %header-text
+    font-family: $font-stack
+    margin-block-end: 0
+
+.complex 
+    @extend %block-type2
+    color: rgb(242, 155, 78)
+    font-size: 20px
+    font-weight: bold
+    font-family: $font-stack
+    margin-block-start: 0
+
+.description 
+    @extend %block-type1
+    color: rgb(250, 248, 248)
+    font-size: 19px
+    font-family: $font-stack
+    @extend %margin-block
+    margin-left: 55px
+
+.free-place
+    @extend %block-type2
+    color: rgb(69,122,187)
+    font-size: 19px
+    font-family: $font-stack
+    font-weight: bold
+    @extend %margin-block
+    margin-top: 50px
+
+.space-button
+    background-color: rgb(41, 41, 41)
+    @extend %button-style 
+    font-size: 15px
+    border-radius: 0px 0px 20px 20px
+    width: 353px
+    height: 50px
+    margin-top: 33px
+    margin-left: 0px
+    border: $border
+
+.footer 
+    margin-top: 20px
+    @extend %block-indent
+    @extend %block-type3
+
+.year
+    width: 900px
+    height: 40px
+    background-color: black
+    @extend %block-type1
+    flex-direction: row
+
+.footer-text 
+    margin-left: 10px
+    margin-top: 10px
+    color: rgb(250, 248, 248)
+    font-size: 19px
+
+.footer-text1 
+    margin-left: 100px
+
+.footer-image 
+    width: 40px
+    height: 40px
