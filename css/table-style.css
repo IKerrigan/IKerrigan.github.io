@@ -1,0 +1,29 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td {
+    border: 2px solid hsl(0, 0%, 0%);
+    text-align: center;
+    padding: 1%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+  }
+
+  #first-row {
+    background-color: #108f8f;
+}
+
+  #first-row:hover {
+      background-color: #f5f510;
+  }
+
+  #second-row {
+      background-color: #f5f510;
+  }
+
+  #second-row:hover {
+    background-color: #108f8f;
+}
