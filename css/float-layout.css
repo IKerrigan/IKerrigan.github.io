@@ -1,0 +1,101 @@
+html{
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+} 
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.container {
+    margin-top: calc(100% / 900 * 110);
+    margin-right: calc(100% / 1200 * 180);
+    margin-left: calc(100% / 1200 * 170);
+    margin-bottom: calc(100% / 900 * 150);
+    width: calc(100% / 1200 * 850);
+    height: calc(100% / 900 * 640);
+}
+
+
+.green-unit {
+    width: calc(100% / 850 * 250);
+    height: calc(100% / 640 * 569.9);
+    background-color: rgb(0, 255, 94);
+    float: left;
+}
+
+.blue-unit {
+    float: right;
+    width: calc(100% / 850 * 600);
+    height: calc(100% / 640 * 80);
+    background-color: rgb(67,82,99);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.yellow-unit {
+    float: right;
+    width: calc(100% / 850 * 600);
+    height: calc(100% / 640 * 490);
+    background-color: rgb(247,246,249);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-left {
+    width: calc(100% / 850 * 580);
+    height: calc(100% / 640 * 70);
+    background-color: rgb(67,82,99);
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-right {
+    float: right;
+    width: calc(100% / 850 * 270);
+    height: calc(100% / 640 * 70);
+    background-color: rgb(67,82,99);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-photo {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    color: rgb(162, 129, 192);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: calc(1vw + 1vh + 1vmin);
+}
+
+.main-content {
+    color: rgb(162, 129, 192);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: calc(1vw + 1vh + 1vmin);
+}
+
+.footer {
+    color: rgb(162, 129, 192);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: calc(1vw + 1vh + 1vmin);
+}
+
+.first-logo {
+    width: 30%;
+    height: 90%;
+}
+
+.second-logo {
+    width: 15%;
+    height: 60%;
+}
