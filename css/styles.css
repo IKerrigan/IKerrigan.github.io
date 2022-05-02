@@ -1,0 +1,12 @@
+#university{
+    margin-left: 53px;
+}
+
+.photo-alania{
+    display: block;
+    width: 900px; 
+}
+
+.image:not(:first-child) {
+    margin-top: 20px;
+}
